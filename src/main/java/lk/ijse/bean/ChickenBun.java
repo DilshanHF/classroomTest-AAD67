@@ -1,5 +1,14 @@
 package lk.ijse.bean;
 
-public class ChickenBun {
+import lk.ijse.contract.GoodFood;
+import org.springframework.stereotype.Component;
 
+
+@Component
+public class ChickenBun implements GoodFood {
+
+    @Override
+    public void FoodLover() {
+
+    }
 }
